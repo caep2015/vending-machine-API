@@ -1,0 +1,34 @@
+{
+  "name": "vending",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "watch": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caep2015/vending-machine-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caep2015/vending-machine-API/issues"
+  },
+  "homepage": "https://github.com/caep2015/vending-machine-API#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.8"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
